@@ -1,6 +1,6 @@
 const capitalize = (text) => text.charAt(0).toUpperCase() + text.slice(1);
 (async (args) => {
-    let [box, amount] = args
+    let [Safari Box, 20] = args
     var name = JSON.parse(atob(localStorage.token.split('.')[1])).name,
         tokens = await fetch("https://api.blooket.com/api/users/tokens?name=" + name, {
             headers: {
